@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node.js - Curso avançado de JavaScript",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "cls && echo 'Hello scripts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh repo clone josilva1233/node"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Estudante Josias",
+  "license": "Apache-2.0"
+}
