@@ -17,5 +17,8 @@
     "javascript"
   ],
   "author": "Estudante Josias",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
