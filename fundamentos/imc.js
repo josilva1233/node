@@ -33,7 +33,7 @@ if(imc < 18.5){
     console.log('Normal'.blue)
 }else if(imc < 30){
     console.log('Sobrepeso'.random)
-}else if(imc > 40){
+}else{
     console.log('Obesidade'.red)
 }
 console.log("")
