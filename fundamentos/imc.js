@@ -27,5 +27,16 @@ console.log(`Peso:  ${peso}`)
 console.log(`Altura:  ${altura}`)
 console.log(`IMC:  ${imc.toFixed(2)}`)
 
+if(imc < 18.5){
+    console.log('Magreza' .red)
+}else if(imc < 25){
+    console.log('Normal'.blue)
+}else if(imc < 30){
+    console.log('Sobrepeso'.random)
+}else if(imc > 40){
+    console.log('Obesidade'.red)
+}
+console.log("")
+console.log("__________________________")
 
 
