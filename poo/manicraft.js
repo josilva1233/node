@@ -44,10 +44,17 @@ class Enxada extends Bloco {
     arar() {
         console.log("._._._. Terra arada!")
         if (this.conquista === true) {
-            console.log(" (^^) S2 Conquista obtida!!!")
+            console.log(" (^.^) S2 Conquista obtida!!!")
         }
     }
+    //polimorfismo
+    minerar(){
+         console.log("¢ (-_-) Dado atribuído")
+    }
+
 }
+
+
 
 /**
  * ***** Mundo ******
@@ -87,3 +94,4 @@ enxada2.arar()
 
 const enxada3 = new Enxada("Diamante", 10, false)
 enxada3.criarEnxada()
+enxada3.minerar()
